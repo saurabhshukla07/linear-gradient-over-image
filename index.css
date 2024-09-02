@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+div{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right top, rgba(5,25,55,0.6),rgba(0,77,122,0.6),rgba(0,135,147,0.6),rgba(168,235,18,0.6)),
+    url(./images/fog-8208493_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+div>p{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 14rem;
+}
